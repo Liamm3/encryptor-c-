@@ -1,0 +1,5 @@
+/Users/liam/Projects/Encryption/Encryption/bin/Debug/Encryption.exe
+/Users/liam/Projects/Encryption/Encryption/bin/Debug/Encryption.pdb
+/Users/liam/Projects/Encryption/Encryption/obj/x86/Debug/Encryption.csproj.CoreCompileInputs.cache
+/Users/liam/Projects/Encryption/Encryption/obj/x86/Debug/Encryption.exe
+/Users/liam/Projects/Encryption/Encryption/obj/x86/Debug/Encryption.pdb
