@@ -1,17 +1,27 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
-namespace Encryption
+namespace Caesar
 {
-    class MainClass
+    class Program
     {
-        public static void Main(string[] args)
+        static void Main(string[] args)
         {
-            Message msg = new Message("hallo welt");
+            Console.WriteLine("Please enter a message:");
+            string message = Console.ReadLine();
+            Console.WriteLine("Please enter the value of shift:");
+            int shift = Convert.ToInt32(Console.ReadLine());
+            
 
-            msg.Encrypt("baum");
-            msg.Decrypt("baum");
+            Console.WriteLine("Your encoded message (Caesar): " + VerschlüsselungCaesar.EncodeCaesar(message, shift));
 
-            Console.WriteLine(msg.message);
+            Console.WriteLine("Please enter a key:");
+            string key = Console.ReadLine();
+
+            Console.WriteLine("Your encoded message (Vigenère): " + VerschlüsselungVigenere.EncodeVigenere(message, key));
         }
     }
 }
